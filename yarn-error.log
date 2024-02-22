@@ -1,0 +1,38 @@
+Arguments: 
+  /home/darshan-jain/.nvm/versions/node/v18.14.0/bin/node /home/darshan-jain/.yarn/bin/yarn.js add @axelar-network
+
+PATH: 
+  /home/darshan-jain/.yarn/bin:/home/darshan-jain/.config/yarn/global/node_modules/.bin:/home/darshan-jain/.yarn/bin:/home/darshan-jain/.config/yarn/global/node_modules/.bin:/home/darshan-jain/.nvm/versions/node/v18.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/darshan-jain/.foundry/bin:/home/darshan-jain/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@axelar-network: Request "https://registry.yarnpkg.com/@axelar-network" returned a 405
+      at params.callback [as _callback] (/home/darshan-jain/.yarn/lib/cli.js:66154:18)
+      at self.callback (/home/darshan-jain/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/darshan-jain/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/darshan-jain/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "hardhat-project"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
